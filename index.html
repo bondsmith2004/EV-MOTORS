@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhyno EV - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var options = {
+        strings: ['Style.', 'Elegance.', 'Minimalism.', 'Comfort.'],
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000,
+        startDelay: 500,
+        loop: true
+      };
+      var typed = new Typed('#typed-words', options);
+    });
+  </script>
+
+</head>
+<body>
+    
+    <header class="header" id="navbar">
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html" class="logo"><img src="images/Logo cropped without tagline.png" width="100" alt=""></a>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="products.html">Products</a>
+                <div class="sub-menu-wrap">
+                  <div class="sub-menu">
+                    <a href="product1.html" class="sub-menu-link">
+                      <p>SE03 Lite <span>&gt;</span></p>
+                      
+                    </a>
+                    <a href="product2.html" class="sub-menu-link">
+                      <p>SE03 <span>&gt;</span></p>
+                    </a>
+                    <a href="product3.html" class="sub-menu-link">
+                      <p>SE03 Max <span>&gt;</span></p>
+                    </a>
+                    <a href="compare.html" class="sub-menu-link">
+                      <p>Compare all <span>&gt;</span></p>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="prebook.html">Prebook</a></li>
+            </ul>
+            <div class="hamburger-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+      
+      
+      
+      
+
+      <section class="hero">
+        <div class="container">
+          <h1>Welcome to Rhyno EV</h1>
+          <div><img src="images/Rhyno Logo .png"  height="400px" alt=""></div>
+          <p>Discover sustainable electric scooters redefining urban mobility.</p>
+          <p>Let's Elevate Your Ride Experience With Rhyno – Where Superiority Meets <span id="typed-words"></span></p>
+          <a href="products.html" class="hbtn">Explore Now</a>
+        </div>
+      </section>
+      <style>
+        #typed-words {
+          color: #ffe600;
+          font-weight: 700;
+        }
+      </style>
+
+  <section class="usp-carousel">
+    <h2 class="usph1">Our Unique Selling Point</h2>
+    <div class="container containerusp">
+      <div class="carousel">
+        <div class="carousel-item active">
+          <h3 class="usph">LFP Battery</h3>
+          <p>Rhyno is equipped with Lithium Iron Phosphate (LFP) batteries, renowned for their safety features—eliminating the risk of fire associated with other Lithium batteries. These batteries boast a broader temperature range, ideal for the diverse Indian climate. Our technology enhances Rhyno's longevity, complemented by an Active Balancing Smart Battery Management System (BMS) for extended life and reduced maintenance. Each battery undergoes rigorous waterproofing tests according to IP76 standards. But it doesn't stop there—our technology goes the extra mile in ensuring the battery's lasting durability. Connect with us to discover the thoughtful engineering behind our batteries!</p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="usph">Wider Tyres</h3>
+          <p>Now, say goodbye to skidding and embrace the leaning turns! Featuring first-of-its-kind, 9.5-inch wider tyres that make this machine an enormous beast that ensures stability on different terrains such as wet roads, mud, and sand.</p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="usph">Range Prediction</h3>
+          <p>Many budget-friendly electric scooters overlook this crucial feature, causing riders to experience range anxiety. With Rhyno, you can ride with peace of mind, thanks to the scooter providing precise information about the remaining battery.</p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="usph">Extraordinary Experience</h3>
+          <p>Rhyno is more than just a mode of transportation. It is an experience of sheer comfort and style! A seamless fusion of minimalism, sophistication, and a touch of masculinity!</p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="usph">Rugged and Simple Design</h3>
+          <p>We’ve had enough of the EVs looking and feeling like fragile plastic toys. Often fading out and shamelessly breaking in minor accidents, ending up spending weeks and months at service stations for complex repairs. We took a bold step of making something raw, rugged, and practical. We kept it so simple that even your trusted local mechanic can understand and repair most of it. If you have reached this far, why not to take a test ride?</p>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <span class="prev" onclick="moveCarousel(-1)">&#10094;</span>
+        <span class="next" onclick="moveCarousel(1)">&#10095;</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to our newsletter for the latest updates and promotions.</p>
+      <form action="#" class="subscribe-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Websites Policy</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="https://www.linkedin.com/">Career</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
